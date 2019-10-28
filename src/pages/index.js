@@ -14,7 +14,20 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/projects/">Go to Projects Page</Link>
+    <div>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/xiaoming-fu/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/xiaomingfu">Github</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/xiaoming_fu">Twitter</a>
+        </li>
+      </ul>
+      <Link to="/projects/">Go to Projects Page</Link>
+    </div>
   </Layout>
 )
 

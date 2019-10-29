@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import MediaLink from "../components/mediaLink"
 
 const IndexPage = () => (
   <Layout>
@@ -14,18 +15,8 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <MediaLink />
     <div>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/xiaoming-fu/">LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://github.com/xiaomingfu">Github</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/xiaoming_fu">Twitter</a>
-        </li>
-      </ul>
       <Link to="/projects/">Go to Projects Page</Link>
     </div>
   </Layout>

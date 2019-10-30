@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import MediaLink from "../components/mediaLink"
-import Navbar from "../components/navbar"
+import MediaLink from "../components/MediaLink"
+import Navbar from "../components/Navbar"
 
 const IndexPage = () => (
   <Layout>

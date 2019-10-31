@@ -1,14 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -188,7 +179,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em "Roboto Condensed", sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -202,7 +193,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

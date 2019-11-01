@@ -4,3 +4,17 @@ html {
 a {
   color: #a69a9b;
 }
+
+/* row {
+  margin-top: 80px;
+  max-width: 960px;
+} */
+
+.col-1-of-2 {
+  margin-top: 80px;
+  float: left;
+  width: 400px;
+}
+.img-container {
+  max-width: 360px;
+}

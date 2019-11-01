@@ -9,17 +9,27 @@ import Navbar from "../components/Navbar"
 
 const IndexPage = () => (
   <Layout>
-    <Navbar />
+    {/* <Navbar /> */}
     <SEO title="Xiaoming Fu" />
-    <h1>Xiaoming Fu</h1>
-    <p>Nice to meet you</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <MediaLink />
-    <div>
-      <Link to="/projects/">Go to Projects Page</Link>
-    </div>
+    <row>
+      <div className="col-1-of-2">
+        <div className="img-container">
+          <Image />
+        </div>
+      </div>
+      <div className="col-1-of-2">
+        <div className="text-container">
+          <h1>Xiaoming Fu</h1>
+          <p>Nice to meet you</p>
+        </div>
+      </div>
+    </row>
+    {/* 
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
+      <MediaLink /> */}
+    {/* <div>
+        <Link to="/projects/">Go to Projects Page</Link>
+      </div> */}
   </Layout>
 )
 

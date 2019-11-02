@@ -1,6 +1,11 @@
 html {
   font-size: 24px;
 }
+
+::selection {
+  background-color: #403c2b;
+}
+
 a {
   color: #a69a9b;
 }

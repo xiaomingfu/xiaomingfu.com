@@ -26,7 +26,13 @@ body {
 .header {
   margin: 20rem 0;
   display: grid;
-  grid-template-columns: [nav-start] 8rem [nav-end] repeat(2, 1fr);
+  grid-template-columns:
+    [nav-start] minmax(8rem, 20%) [nav-end] repeat(
+      2,
+      [content-start] minmax(30rem, 1fr)
+    )
+    [content-end];
+  grid-template-rows: 1fr;
   grid-column-gap: 3rem;
 }
 

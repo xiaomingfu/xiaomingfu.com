@@ -11,24 +11,27 @@ const IndexPage = () => (
   <Layout>
     {/* <Navbar /> */}
     <SEO title="Xiaoming Fu" />
-    <row>
-      <div className="col-1-of-2">
-        <div className="img-container">
-          <Image />
-        </div>
+
+    <div className="img-container">
+      <Image />
+    </div>
+
+    <div className="text-container">
+      <h1 class="heading--1">Nice to meet you</h1>
+      <div class="text__detail">
+        My name is <span class="text__name">Xiaoming Fu</span>. I'm a creative,
+        ambitous, and self-taught software engineer.
       </div>
-      <div className="col-1-of-2">
-        <div className="text-container">
-          <h1>Nice to meet you</h1>
-          <p>
-            My name is Xiaoming Fu. I'm a creative, ambitous, and self-taught
-            software engineer.
-          </p>
-          <p>I focus on full stack web development. </p>
-          <p>For more details, see my resume.</p>
-        </div>
-      </div>
-    </row>
+      <div class="text__detail">I focus on full stack web development. </div>
+      <footer class="footer">
+        For more details, see my{" "}
+        <a href="#" class="link">
+          <span>resume</span>
+        </a>
+        .
+      </footer>
+    </div>
+
     {/* 
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
       <MediaLink /> */}

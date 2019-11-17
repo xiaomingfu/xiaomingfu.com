@@ -11,19 +11,44 @@ const IndexPage = () => (
   <Layout>
     {/* <Navbar /> */}
     <SEO title="Xiaoming Fu" />
-    <row>
-      <div className="col-1-of-2">
-        <div className="img-container">
-          <Image />
-        </div>
+
+    <div class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <ivg></ivg>
+            about
+          </li>
+          <li class="nav__item">
+            <ivg></ivg>
+            projects
+          </li>
+          <li class="nav__item">
+            <ivg></ivg>
+            contact
+          </li>
+        </ul>
+      </nav>
+      <div className="img-container">
+        <Image />
       </div>
-      <div className="col-1-of-2">
-        <div className="text-container">
-          <h1>Xiaoming Fu</h1>
-          <p>Nice to meet you</p>
+
+      <div className="text-container">
+        <h1 class="heading--1">Nice to meet you</h1>
+        <div class="text__detail">
+          My name is <span class="text__name">Xiaoming Fu</span>. I'm a creative
+          and ambitous self-taught software engineer.
         </div>
+        <div class="text__detail">I focus on full stack web development. </div>
+        <footer class="footer">
+          For more details, see my{" "}
+          <a href="#" class="link">
+            <span>resume</span>
+          </a>
+          .
+        </footer>
       </div>
-    </row>
+    </div>
     {/* 
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
       <MediaLink /> */}

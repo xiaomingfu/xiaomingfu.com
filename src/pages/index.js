@@ -19,8 +19,13 @@ const IndexPage = () => (
       </div>
       <div className="col-1-of-2">
         <div className="text-container">
-          <h1>Xiaoming Fu</h1>
-          <p>Nice to meet you</p>
+          <h1>Nice to meet you</h1>
+          <p>
+            My name is Xiaoming Fu. I'm a creative, ambitous, and self-taught
+            software engineer.
+          </p>
+          <p>I focus on full stack web development. </p>
+          <p>For more details, see my resume.</p>
         </div>
       </div>
     </row>

@@ -12,26 +12,43 @@ const IndexPage = () => (
     {/* <Navbar /> */}
     <SEO title="Xiaoming Fu" />
 
-    <div className="img-container">
-      <Image />
-    </div>
-
-    <div className="text-container">
-      <h1 class="heading--1">Nice to meet you</h1>
-      <div class="text__detail">
-        My name is <span class="text__name">Xiaoming Fu</span>. I'm a creative,
-        ambitous, and self-taught software engineer.
+    <div class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <ivg></ivg>
+            about
+          </li>
+          <li class="nav__item">
+            <ivg></ivg>
+            projects
+          </li>
+          <li class="nav__item">
+            <ivg></ivg>
+            contact
+          </li>
+        </ul>
+      </nav>
+      <div className="img-container">
+        <Image />
       </div>
-      <div class="text__detail">I focus on full stack web development. </div>
-      <footer class="footer">
-        For more details, see my{" "}
-        <a href="#" class="link">
-          <span>resume</span>
-        </a>
-        .
-      </footer>
-    </div>
 
+      <div className="text-container">
+        <h1 class="heading--1">Nice to meet you</h1>
+        <div class="text__detail">
+          My name is <span class="text__name">Xiaoming Fu</span>. I'm a creative
+          and ambitous self-taught software engineer.
+        </div>
+        <div class="text__detail">I focus on full stack web development. </div>
+        <footer class="footer">
+          For more details, see my{" "}
+          <a href="#" class="link">
+            <span>resume</span>
+          </a>
+          .
+        </footer>
+      </div>
+    </div>
     {/* 
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
       <MediaLink /> */}

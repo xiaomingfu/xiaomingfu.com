@@ -42,7 +42,7 @@ const IndexPage = () => (
         <div class="text__detail">I focus on full stack web development. </div>
         <footer class="footer">
           For more details, see my{" "}
-          <a href="https://github.com/xiaomingfu/resume/blob/master/Xiaoming%20Fu%20Resume%202020.09%20-%20V4.pdf" class="link" target="_blank">
+          <a href="https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2020.09v5_GHC.pdf" class="link" target="_blank">
             <span>resume</span>
           </a>
           .

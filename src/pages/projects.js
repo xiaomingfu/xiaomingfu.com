@@ -9,9 +9,10 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <MyLayout>
     <SEO title="Projects" />
-    <h1>This is some projects I did</h1>
-
-    <Link to="/">Go back to the homepage</Link>
+    <p>
+      The list of projects is growing. Pls refer to my resume or github to get
+      the latest list.
+    </p>
   </MyLayout>
 )
 

@@ -17,7 +17,7 @@ const MyLayout = ({ children }) => (
         <ul class="nav__list">
           <li class="nav__item">
             <ivg></ivg>
-            about
+            <Link to="/">about</Link>
           </li>
           <li class="nav__item">
             <ivg></ivg>

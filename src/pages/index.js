@@ -1,70 +1,38 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import MyLayout from "../components/MyLayout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import MediaLink from "../components/MediaLink"
 import Navbar from "../components/Navbar"
 
 const IndexPage = () => (
-  <Layout>
-    {/* <Navbar /> */}
-    <SEO title="Xiaoming Fu" />
-
-    <div class="wrapper">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <ivg></ivg>
-            about
-          </li>
-          <li class="nav__item">
-            <ivg></ivg>
-            projects
-          </li>
-          <li class="nav__item">
-            <ivg></ivg>
-            contact
-          </li>
-        </ul>
-      </nav>
-
-      <div className="content">
-        <div className="img-container">
-          <Image />
-        </div>
-
-        <div className="text-container">
-          <h1 class="heading--1">Nice to meet you</h1>
-          <div class="text__detail">
-            My name is <span class="text__name">Xiaoming Fu</span>. I'm a
-            creative and ambitous self-taught software engineer.
-          </div>
-          <div class="text__detail">
-            I focus on full stack web development.{" "}
-          </div>
-          <footer class="footer">
-            For more details, see my{" "}
-            <a
-              href="https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2020.09v5_GHC.pdf"
-              class="link"
-              target="_blank"
-            >
-              <span>resume</span>
-            </a>
-            .
-          </footer>
-        </div>
-      </div>
+  <MyLayout>
+    <div className="img-container">
+      <Image />
     </div>
-    {/* 
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
-      <MediaLink /> */}
-    {/* <div>
-        <Link to="/projects/">Go to Projects Page</Link>
-      </div> */}
-  </Layout>
+
+    <div className="text-container">
+      <h1 class="heading--1">Nice to meet you</h1>
+      <div class="text__detail">
+        My name is <span class="text__name">Xiaoming Fu</span>. I'm a creative
+        and ambitous self-taught software engineer.
+      </div>
+      <div class="text__detail">I focus on full stack web development. </div>
+      <footer class="footer">
+        For more details, see my{" "}
+        <a
+          href="https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2020.09v5_GHC.pdf"
+          class="link"
+          target="_blank"
+        >
+          <span>resume</span>
+        </a>
+        .
+      </footer>
+    </div>
+  </MyLayout>
 )
 
 export default IndexPage

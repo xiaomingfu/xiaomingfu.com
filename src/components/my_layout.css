@@ -23,9 +23,9 @@ body {
   background-color: #403c2b;
 }
 
-.header {
+.wrapper {
   margin: 20rem 0;
-  display: grid;
+  /* display: grid;
   grid-template-columns:
     [nav-start] minmax(8rem, 20%) [nav-end] repeat(
       2,
@@ -33,12 +33,15 @@ body {
     )
     [content-end];
   grid-template-rows: 1fr;
-  grid-column-gap: 3rem;
+  grid-column-gap: 3rem; */
+  display: flex;
+  flex-direction: row;
 }
 
 .nav {
   display: flex;
   justify-content: flex-start;
+  margin-right: 3rem;
 }
 
 .nav__list {
@@ -49,6 +52,16 @@ body {
 .nav__item {
   text-transform: uppercase;
   font-size: 1.6rem;
+}
+
+.content {
+  margin: 0 auto;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.img-container {
+  margin-bottom: 5rem;
 }
 
 .text-container {

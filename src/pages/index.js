@@ -12,7 +12,7 @@ const IndexPage = () => (
     {/* <Navbar /> */}
     <SEO title="Xiaoming Fu" />
 
-    <div class="header">
+    <div class="wrapper">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
@@ -29,24 +29,33 @@ const IndexPage = () => (
           </li>
         </ul>
       </nav>
-      <div className="img-container">
-        <Image />
-      </div>
 
-      <div className="text-container">
-        <h1 class="heading--1">Nice to meet you</h1>
-        <div class="text__detail">
-          My name is <span class="text__name">Xiaoming Fu</span>. I'm a creative
-          and ambitous self-taught software engineer.
+      <div className="content">
+        <div className="img-container">
+          <Image />
         </div>
-        <div class="text__detail">I focus on full stack web development. </div>
-        <footer class="footer">
-          For more details, see my{" "}
-          <a href="https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2020.09v5_GHC.pdf" class="link" target="_blank">
-            <span>resume</span>
-          </a>
-          .
-        </footer>
+
+        <div className="text-container">
+          <h1 class="heading--1">Nice to meet you</h1>
+          <div class="text__detail">
+            My name is <span class="text__name">Xiaoming Fu</span>. I'm a
+            creative and ambitous self-taught software engineer.
+          </div>
+          <div class="text__detail">
+            I focus on full stack web development.{" "}
+          </div>
+          <footer class="footer">
+            For more details, see my{" "}
+            <a
+              href="https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2020.09v5_GHC.pdf"
+              class="link"
+              target="_blank"
+            >
+              <span>resume</span>
+            </a>
+            .
+          </footer>
+        </div>
       </div>
     </div>
     {/* 

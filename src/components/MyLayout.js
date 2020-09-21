@@ -25,7 +25,7 @@ const MyLayout = ({ children }) => (
           </li>
           <li class="nav__item">
             <ivg></ivg>
-            contact
+            <Link to="/contact">contact</Link>
           </li>
         </ul>
       </nav>

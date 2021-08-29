@@ -23,7 +23,7 @@ const IndexPage = () => (
       <footer class="footer">
         For more details, see my{" "}
         <a
-          href="https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2020.09v5_GHC.pdf"
+          href="https://github.com/xiaomingfu/resume/blob/master/XiaomingFu_Resume2021.08v6.pdf"
           class="link"
           target="_blank"
         >

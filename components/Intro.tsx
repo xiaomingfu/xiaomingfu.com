@@ -1,6 +1,6 @@
 function Intro() {
   const resumeLink =
-    "https://github.com/xiaomingfu/resume/raw/master/XiaomingFu_Resume2021.08v6.pdf";
+    "https://docs.google.com/document/d/1Kw1eGMhGr_sX_YrjD7nxmyqBowXem52ZRzjGrv_evVA?usp=sharing";
 
   return (
     <div className="text-2xl text-[#6AA589] font-intro tracking-wide leading-10">
